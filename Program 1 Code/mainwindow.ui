@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>887</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>321</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>319</width>
+       <height>329</height>
+      </rect>
+     </property>
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>321</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Usable Resources and Dependencies</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>240</y>
+      <width>431</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>429</width>
+       <height>119</height>
+      </rect>
+     </property>
+     <widget class="QListWidget" name="listWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>431</width>
+        <height>121</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>220</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Unusable Resources</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>50</y>
+      <width>431</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>429</width>
+       <height>149</height>
+      </rect>
+     </property>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>431</width>
+        <height>151</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>30</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Node Info</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>887</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpen">
+    <property name="title">
+     <string>Open</string>
+    </property>
+    <addaction name="action_Open"/>
+   </widget>
+   <widget class="QMenu" name="menuAdd_Link">
+    <property name="title">
+     <string>Add Link</string>
+    </property>
+    <addaction name="actionAdd"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout_Me">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionAbout_Me"/>
+   </widget>
+   <addaction name="menuOpen"/>
+   <addaction name="menuAdd_Link"/>
+   <addaction name="menuAbout_Me"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdd">
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="action_Open">
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+  </action>
+  <action name="actionAbout_Me">
+   <property name="text">
+    <string>About Me</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
