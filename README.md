@@ -1,0 +1,1 @@
+# GuildHall-Resource-Manager
